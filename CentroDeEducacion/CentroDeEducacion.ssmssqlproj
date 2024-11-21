@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CentroDeEducacion">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(local)\:sa">
+          <Created>2024-11-21T18:18:58.0036414-03:00</Created>
+          <Type>SQL</Type>
+          <Server>(local)\</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+        <ConnectionNode Name="DESKTOP-RM8H6U8:sa">
+          <Created>2024-11-21T18:28:39.005467-03:00</Created>
+          <Type>SQL</Type>
+          <Server>DESKTOP-RM8H6U8</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>CentroDeEducacion</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="ActualizarEstudiante.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-RM8H6U8:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-RM8H6U8</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>ActualizarEstudiante.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ActulizarProfesor.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-RM8H6U8:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-RM8H6U8</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>ActulizarProfesor.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ConsultarInscripciones.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-RM8H6U8:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-RM8H6U8</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>ConsultarInscripciones.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreacionTablas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-RM8H6U8:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-RM8H6U8</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>CreacionTablas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="InsertarCurso.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-RM8H6U8:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-RM8H6U8</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>InsertarCurso.sql</FullPath>
+        </FileNode>
+        <FileNode Name="InsertarEstudiantes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-RM8H6U8:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-RM8H6U8</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>InsertarEstudiantes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="InsertarInscripcion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-RM8H6U8:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-RM8H6U8</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>InsertarInscripcion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="InsertarPago.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-RM8H6U8:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-RM8H6U8</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>InsertarPago.sql</FullPath>
+        </FileNode>
+        <FileNode Name="InsertarProfesor.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>InsertarProfesor.sql</FullPath>
+        </FileNode>
+        <FileNode Name="RegistrarPago.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-RM8H6U8:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-RM8H6U8</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>RegistrarPago.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ViewCursosEstudianteRango.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-RM8H6U8:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-RM8H6U8</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>ViewCursosEstudianteRango.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
